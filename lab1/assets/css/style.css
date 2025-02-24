@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 238, 254);
+}
+
+main {
+    flex-grow: 1;
+    display: grid;
+    text-align: center;
+    margin-top: 4%;
+}
+
+ul{
+    text-align: center;
+    background-color: rgb(255, 164, 240);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5em;
+    margin-left: 1%;
+}
+
+a:hover {
+    opacity: .85;
+}
+
+li{
+    display: inline;
+    
+   
+}
+
+img{
+    width: 400px;
+    height: 350px;
+}
+
+button{
+    border: none;
+    background-color: rgb(255, 164, 240);
+    color: rgb(0, 0, 0);
+    padding: 5px 5px 5px 5px;
+    border-radius: 0.75rem;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.logout{
+    display: inline;
+    margin-left: 1%;
+}
+
+h1{
+    font-size: 2em;
+    margin-bottom: 2%;
+}
+.post{
+    margin-bottom: 3%;
+}
+
+.post h2{
+    font-size: 1.2em;
+    margin-bottom: 1%;
+}
+
+.post p{
+    font-size: 1em;
+    margin-bottom: 1%;
+}
+
+.form-with-validation input[type="text"], input[type="password"]{
+    padding: 10px 10px;
+    border: none;
+    margin-bottom: 1%;
+    border-radius: 0.70rem;
+}
+.form-with-validation textarea{
+    border: none;
+    margin-bottom: 1%;
+    border-radius: 0.70rem;
+}
+.form-with-validation input[type="file"]{
+    margin-bottom: 1%;
+    border: none;
+}
+.form-with-validation label{
+    font-size: 1.2em;
+    margin-bottom: 1%;
+    display: block;
+}
+.form-with-validation button{
+    border: none;
+    background-color: rgb(255, 164, 240);
+    color: rgb(0, 0, 0);
+    padding: 5px 15px 5px 15px;
+    border-radius: 0.75rem;
+    font-size: 1.5em;
+    font-weight: bold;
+}
